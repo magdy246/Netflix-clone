@@ -143,6 +143,15 @@ export default function Navbar() {
               </li>
               <li className="relative group">
                 <NavLink
+                  to="tv"
+                  className="block w-full md:w-auto text-center text-white bg-transparent py-2 px-4 transition duration-300 ease-in-out transform rounded-xl hover:shadow-red-600 hover:shadow-2xl"
+                >
+                  TVs
+                </NavLink>
+                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-red-600 transition-all duration-300 ease-in-out group-hover:w-3/4"></span>
+              </li>
+              <li className="relative group">
+                <NavLink
                   to="tranding"
                   className="block w-full md:w-auto text-center text-white bg-transparent py-2 px-4 transition duration-300 ease-in-out transform rounded-xl hover:shadow-red-600 hover:shadow-2xl"
                 >
@@ -156,15 +165,6 @@ export default function Navbar() {
                   className="block w-full md:w-auto text-center text-white bg-transparent py-2 px-4 transition duration-300 ease-in-out transform rounded-xl hover:shadow-red-600 hover:shadow-2xl"
                 >
                   <FontAwesomeIcon icon={faSearch} />{" "}Discover
-                </NavLink>
-                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-red-600 transition-all duration-300 ease-in-out group-hover:w-3/4"></span>
-              </li>
-              <li className="relative group">
-                <NavLink
-                  to="tv"
-                  className="block w-full md:w-auto text-center text-white bg-transparent py-2 px-4 transition duration-300 ease-in-out transform rounded-xl hover:shadow-red-600 hover:shadow-2xl"
-                >
-                  TVs
                 </NavLink>
                 <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-red-600 transition-all duration-300 ease-in-out group-hover:w-3/4"></span>
               </li>
