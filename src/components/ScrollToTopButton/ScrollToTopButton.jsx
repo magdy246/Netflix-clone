@@ -34,7 +34,7 @@ export default function ScrollToTopButton() {
                bg-red-600 text-white rounded-full shadow-lg
                 cursor-pointer transition-all 
                 duration-500 
-                ${isVisible ? 'opacity-100 scale-100 translate-0' : 'opacity-0 scale-0 -translate-x-10 translate-y-10'}
+                ${isVisible ? 'opacity-100 scale-100 translate-0' : 'opacity-0 scale-0 translate-x-10 translate-y-10'}
                 z-50
                 w-10 h-10 flex items-center justify-center pointer-events-auto`}
             onClick={scrollToTop}
