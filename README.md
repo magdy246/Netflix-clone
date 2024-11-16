@@ -1,6 +1,6 @@
 # Netflix Clone - Web Application
 
-![Netflix Clone](https://via.placeholder.com/600x400?text=Netflix+Clone+Preview)
+![Netflix Clone]((https://github.com/magdy246/JS/raw/master/netflix.png)
 
 This is a **Netflix Clone** web application built using **React** to replicate the interface and functionality of Netflix. The project utilizes modern web technologies such as React, Tailwind CSS, and the TMDB (The Movie Database) API to provide an immersive experience with movie and TV show browsing, and streaming capabilities.
 
