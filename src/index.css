@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto-B';
+    src: url('./assets/Fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Cairo-B';
+    src: url('./assets/Fonts/Cairo/static/Cairo-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'BebasNeue-R';
+    src: url('./assets/Fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+:root {
+    /*!!!!!!!!!!!!! FONTSs !!!!!!!!!!!!!*/
+    --Roboto-B: 'Roboto-B';
+    --Cairo-B: 'Cairo-B';
+    --BebasNeue-R: 'BebasNeue-R';
+}
+
+body {
+    background-color: black;
+    font-family: var(--Cairo-B);
+}
+
+::selection {
+    background-color: red;
+    color: black;
+}
+
+/* ! Scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #0f0f0f, #1a1a1a 40%, #e50914 80%);
+    border-radius: 10px;
+    border: 4px solid #1a1a1a;
+    transition: background-color 0.8s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff000d;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #1a1a1a;
+}
