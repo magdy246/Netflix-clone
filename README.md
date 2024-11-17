@@ -32,7 +32,7 @@ This project is built using the following technologies:
 - **React**: JavaScript library for building user interfaces.
 - **Tailwind CSS**: Utility-first CSS framework for building custom designs.
 - **TMDB API**: To fetch movie and show details dynamically.
-- **Firebase**: (Future feature: for user authentication and storing user data.)
+- **Auth API**: (Future feature: for user authentication and storing user data.)
 - **React Router**: For routing and navigation between different pages.
 - **Axios**: For making API requests.
 - **Vercel**: To deploy the app and host the live demo.
